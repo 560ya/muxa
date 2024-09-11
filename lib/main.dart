@@ -392,7 +392,7 @@ class _TurtState extends State<Turt> {
               ),
               child: Center( // Use Center widget to center the text
                 child: Padding(
-                  padding: const EdgeInsets.all(16.0), // Added padding to avoid overflow
+                  padding: const EdgeInsets.all(16.0), 
                   child: Text(
                     "Time remaining until the end of 2024:\n"
                     "$days kun\n"
